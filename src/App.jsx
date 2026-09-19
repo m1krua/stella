@@ -942,7 +942,7 @@ function Contacts() {
                   name="email"
                   type="email"
                   placeholder="you@company.com"
-                  autoComplete={mode === "login" ? "username" : "email"}
+                  autoComplete="email"
                   required
                 />
                 <Field label="Телефон" name="phone" placeholder="+996 ..." />
